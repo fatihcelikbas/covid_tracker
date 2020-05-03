@@ -475,8 +475,7 @@ server = function(input, output, session) {
   output$rawtable <- renderPrint({
     orig <- options(width = 1000)
     print(tail(cv_cases %>% select(c(country, date, cases, new_cases, deaths, new_deaths,
-                                     recovered, new_recovered, active_cases, 
-                                     per100k, newper100k, activeper100k)), input$maxrows))
+                                     recovered, new_recovered, active_cases)), input$maxrows))
     options(orig)
   })
   
