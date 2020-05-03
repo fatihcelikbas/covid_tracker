@@ -221,7 +221,7 @@ ui <- bootstrapPage(
                "When making forecasts with prophet algorithm, we used the R package created by data scientists at Facebook.",tags$br(),
                tags$br(),
                tags$h2(strong("Code")),
-               "Code and input data used to generate this Shiny app can be accessed from the linked Github repository:",tags$a(href="https://github.com/eparker12/nCoV_tracker", "Github."),
+               "Code and input data used to generate this Shiny app can be accessed from the linked Github repository:",tags$a(href="https://github.com/fatihcelikbas/covid_tracker", "Github."),
                tags$br(),
                tags$h2(strong("Sources")),
                tags$b("2019-COVID cases: "), tags$a(href="https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series", "Johns Hopkins Center for Systems Science and Engineering github page,")," with additional information from the ",tags$a(href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports", "WHO's COVID-19 situation reports."),tags$br(),
