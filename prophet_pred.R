@@ -13,7 +13,7 @@ generate_prophet_prediction <- function(which.country = "Turkey", today = refday
     prophet.dat <- data.frame(ds = dc$date, y = dat_typ)
     
     # Fitting the Prophet Model
-    prophet_model <- prophet(prophet.dat)
+    prophet_model <-  prophet(prophet.dat)
     
     # Choosing Future Forecast Period
     prophet.forecasts <- make_future_dataframe(prophet_model, periods = days.ahead)

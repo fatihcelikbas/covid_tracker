@@ -1,4 +1,3 @@
-# load required packages
 if(!require(devtools)) install.packages("devtools")
 if(!require(magrittr)) install.packages("magrittr")
 if(!require(rvest)) install.packages("rvest")
@@ -8,14 +7,14 @@ if(!require(reshape2)) install.packages("reshape2")
 if(!require(ggiraph)) install.packages("ggiraph")
 if(!require(RColorBrewer)) install.packages("RColorBrewer")
 if(!require(leaflet)) install.packages("leaflet")
-if(!require(plotly)) install.packages("plotly")
 if(!require(rgdal)) install.packages("rgdal")
 if(!require(shiny)) install.packages("shiny")
 if(!require(shinyWidgets)) install.packages("shinyWidgets")
-if(!require(shinydashboard)) install.packages("shinydashboard")
 if(!require(shinythemes)) install.packages("shinythemes")
 if(!require(DT)) install.packages("DT")
-if(!require(dplyr)) install.packages("dplyr")
+if(!require(plotly)) install.packages("plotly") # 1
+if(!require(dplyr)) install.packages("dplyr") # 1
+if(!require(shinydashboard)) install.packages("shinydashboard") # 1
 if(!require(prophet)) devtools::install_github("facebook/prophet", subdir='R', ref="8306ae3")
 if(!require(forecast)) install.packages("forecast")
-if(!require(data.table)) install.packages("data.table")
+if(!require(RcppArmadillo)) install.packages("RcppArmadillo")

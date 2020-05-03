@@ -467,8 +467,7 @@ server = function(input, output, session) {
     },
     content = function(file) {
       write.csv(cv_cases %>% select(c(country, date, cases, new_cases, deaths, new_deaths,
-                                      recovered, new_recovered, active_cases, 
-                                      per100k, newper100k, activeper100k)), file, row.names = FALSE)
+                                      recovered, new_recovered, active_cases)), file, row.names = FALSE)
     }
   )
   
